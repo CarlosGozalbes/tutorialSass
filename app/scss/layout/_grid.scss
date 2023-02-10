@@ -54,15 +54,16 @@
         //$widget: &;
         
         
-        &.magenta {
-            @extend %widget;
-            background-color: hsl(300, 100%, 30%);
-        }
-        &.green {
-            //@extend #{$widget};
-            //@extend .grid__widget;
-            @extend %widget;
-            background-color: hsl(120, 100%, 27%);
-        }
+        padding: u.rem(16);
+        // &.magenta {
+        //     //@extend %widget;
+        //     background-color: hsl(300, 100%, 30%);
+        // }
+        // &.green {
+        //     //@extend #{$widget};
+        //     //@extend .grid__widget;
+        //     //@extend %widget;
+        //     background-color: hsl(120, 100%, 27%);
+        // }
     }
 }
